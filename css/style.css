@@ -1,9 +1,38 @@
+
+
+
 h1 {
-    color: blue;
+    color: red;
+    background-color: aquamarine;
 }
+
+nav {
+    background-color: yellow;
+}
+
+section {
+    background-color: gray;
+}
+
+footer {
+    background-color: violet;
+}
+
 section > img {
-    width: 300px;
-    
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.5);
     
     
 }
+
+#first-paragraph::first-letter {
+    color: rgb(30, 255, 0);
+    float: left;
+    font-size: 2.6em;
+    font-weight: bold;
+    line-height: 0.3;
+    margin-inline-end: 0.5rem; 
+    
+  }
