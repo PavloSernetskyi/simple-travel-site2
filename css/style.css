@@ -19,12 +19,8 @@ footer {
 }
 
 section > img {
-    width: 30%;
-    height: 300px;
     border-radius: 20px;
-    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.5);
-    
-    
+    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.5);  
 }
 
 #first-paragraph::first-letter {
